@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(lightblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+* {
+    font-family: "Arial", serif; 
+    border-radius: 10px;
+}
+.TITLE {
+    img {
+        position: relative;
+        top: -20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+}
+.INTRO, .BEAUTIFUL_PICS {
+    position: relative;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: white;
+
+    margin: auto;   
+    width: 72.5%;
+    h1 {
+        position: relative;
+
+        text-align: center;
+
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+.INTRO {
+    bottom: 15px;
+    line-height: 2em;
+    height: 90px;
+    h1, h2, h3, p {
+        position: relative;
+        top: -20px;
+        text-align: center;
+    }
+    h3 {
+        top: -35px;
+        font-size: 24px;
+    }
+}
+
+.BEAUTIFUL_PICS {
+    height: 50%;
+    h1 {
+        top: -17px;
+    }
+    img {
+        position: relative;
+        bottom: 40px;
+        padding: 10px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+
+        border-radius: 2px;
+    }
+}
+
+.WATERMARK {
+    position: fixed;
+    right: 3px;
+    font-size: 24px;
+    font-family: "Calibri", serif;
+    font-weight: bold;
+    padding: 2.5px;
+    bottom: 0px;
+}

@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+* {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url("background.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+#oops, #brum {
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#oops {
+    text-align: center;
+    font-size: 128px;
+    font-weight: bold;
+}
+#brum {
+    font-size: 50px;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    
+    position: relative;
+    top: 20px;
+    padding: 10px;
+}
